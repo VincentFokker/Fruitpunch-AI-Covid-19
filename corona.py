@@ -29,7 +29,7 @@ import plotly.graph_objects as go
 traces_list = []
 for item in country_list:
     x = total_cases.loc[total_cases['Entity'] == item]['Year']
-#    x = [day - list(total_cases.loc[total_cases['Entity'] == item]['Year'])[0] for day in x]
+    x = [day - list(total_cases.loc[total_cases['Entity'] == item]['Year'])[0] for day in x]
 
     trace = go.Scatter(x=x,
             y=total_cases.loc[total_cases['Entity'] == item]['Total confirmed cases of COVID-19'],
