@@ -1,6 +1,6 @@
 # Fruitpunch AI Covid-19
 
-This is the Project GIT for the Fruitpunch AI COVID-19 challenge. 
+This is the Project GIT for the Fruitpunch AI COVID-19 challenge. Want to Join or colaborate? Please check: https://fruitpunch.ai/covid-19/ for more information.
 
 # Challenge description
 Help us answer these questions:
