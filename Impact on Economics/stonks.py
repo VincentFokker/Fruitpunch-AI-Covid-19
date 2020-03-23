@@ -97,6 +97,9 @@ def plot_shape_in_fig(fig, start_date, end_date, color='green', low=350, high=57
         )
     return fig
 
+st.title('The Effect of COVID-19 on the economy.')
+st.write('')
+
 
 # # General Overview
 st.title('General Overview')
